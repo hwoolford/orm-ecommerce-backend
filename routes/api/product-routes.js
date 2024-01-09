@@ -12,7 +12,7 @@ router.get('/', async (req, res) => {
     });
     res.status(200).json(productData);
   } catch (err) {
-    console.log(err);
+    console.error(err);
     res.status(500).json(err);
   }
 });
@@ -30,7 +30,7 @@ router.get('/:id', async (req, res) => {
     }
     res.status(200).json(productData);
   } catch (err) {
-    console.log(err);
+    console.error(err);
     res.status(500).json(err);
   }
 });
@@ -62,7 +62,7 @@ router.post('/', (req, res) => {
     })
     .then((productTagIds) => res.status(200).json(productTagIds))
     .catch((err) => {
-      console.log(err);
+      console.error(err);
       res.status(400).json(err);
     });
 });
@@ -107,7 +107,7 @@ router.put('/:id', (req, res) => {
       return res.json(product);
     })
     .catch((err) => {
-      console.log(err);
+      console.error(err);
       res.status(400).json(err);
     });
 });
@@ -126,7 +126,7 @@ router.delete('/:id', async (req, res) => {
   }
   res.status(200).json(productData);
   } catch (err) {
-    console.log(err);
+    console.error(err);
     res.status(500).json(err);
   }
 });
