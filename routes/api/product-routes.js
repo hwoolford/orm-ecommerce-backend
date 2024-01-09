@@ -43,7 +43,7 @@ router.get('/:id', async (req, res) => {
       stock: 3,
       tagIds: [1, 2, 3, 4]
     }
-  */
+*/
 router.post('/', (req, res) => {
   Product.create(req.body)
     .then((product) => {
