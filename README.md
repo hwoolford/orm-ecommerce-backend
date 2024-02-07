@@ -34,7 +34,7 @@ The images below show routes using Insomnia:
 
 ## Links
 - [GitHub Repository](https://github.com/hwoolford/orm-ecommerce-backend) 
-- [Walkthrough Video Demonstration](https://drive.google.com/file/d/1AIblEGE-PBIQa_NXjWUtTymHzcfEECNf/view?usp=sharing)
+- [Walkthrough Video Demonstration](https://drive.google.com/file/d/1Y2OpsT-sUphfe8RadwZW_yzAPMTVE-iJ/view?usp=sharing)
 
 ## Acknowledgements
 I would like to acknowledge the assistance provided by Xpert, an AI Learning Assistant, in providing guidance and support throughout the development of this project. Xpert's insights and suggestions were invaluable in helping me overcome challenges and improve the quality of my work. (Acknowledgement written by Xpert)
